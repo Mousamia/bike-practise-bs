@@ -1,0 +1,15 @@
+.navbar-expand-lg .navbar-collapse{
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+}
+/* this is right-element of navbar */
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    /* it defines gap b/2 home..shop..news */
+
+}
